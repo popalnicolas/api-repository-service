@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POPAPP.DK.API", "POPAPP.DK.API\POPAPP.DK.API.csproj", "{EDBD4315-1424-4805-8176-3F23DE8505C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopApp.dk.Api", "PopApp.dk.Api\PopApp.dk.Api.csproj", "{EDBD4315-1424-4805-8176-3F23DE8505C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POPAPP.DK.DTO", "POPAPP.DK.DTO\POPAPP.DK.DTO.csproj", "{959D8124-5599-4471-A72A-01D46F19FDDC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopApp.dk.DataTransferObjects", "PopApp.dk.DataTransferObjects\PopApp.dk.DataTransferObjects.csproj", "{959D8124-5599-4471-A72A-01D46F19FDDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POPAPP.DK.DATA", "POPAPP.DK.DATA\POPAPP.DK.DATA.csproj", "{D6C26FCC-6BCB-4D20-A9E2-51D3666F75F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopApp.dk.DataAccess", "PopApp.dk.DataAccess\PopApp.dk.DataAccess.csproj", "{D6C26FCC-6BCB-4D20-A9E2-51D3666F75F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POPAPP.DK.BUSINESS", "POPAPP.DK.BUSINESS\POPAPP.DK.BUSINESS.csproj", "{EB671936-6998-45F2-8FC2-FB759CA4B371}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PopApp.dk.Business", "PopApp.dk.Business\PopApp.dk.Business.csproj", "{EB671936-6998-45F2-8FC2-FB759CA4B371}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

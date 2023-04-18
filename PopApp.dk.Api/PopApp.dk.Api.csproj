@@ -5,6 +5,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+        <RootNamespace>POPAPP.DK.API</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -19,7 +20,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\POPAPP.DK.BUSINESS\POPAPP.DK.BUSINESS.csproj" />
+      <ProjectReference Include="..\PopApp.dk.Business\PopApp.dk.Business.csproj" />
     </ItemGroup>
 
 </Project>
