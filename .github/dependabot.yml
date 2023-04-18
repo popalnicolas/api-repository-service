@@ -1,0 +1,23 @@
+version: 2
+updates:
+  - package-ecosystem: "nuget"
+    directory: "/POPAPP.DK.API"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "nuget"
+    directory: "/POPAPP.DK.BUSINESS"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "nuget"
+    directory: "/POPAPP.DK.DATA"
+    schedule:
+      interval: "weekly"
+  - package-ecosystem: "nuget"
+    directory: "/POPAPP.DK.DTO"
+    schedule:
+      interval: "weekly"
+      
+  - package-ecosystem: "github-actions"
+    directory: "/.github/workflows"
+    schedule:
+      interval: "weekly"
