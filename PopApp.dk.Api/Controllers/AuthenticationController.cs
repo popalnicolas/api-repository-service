@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using POPAPP.DK.BUSINESS.Services.IServices;
 using POPAPP.DK.DATA.Models;
+using POPAPP.DK.DTO.Account;
 
 namespace POPAPP.DK.API.Controllers;
 
@@ -21,7 +22,7 @@ public class AuthenticationController: ControllerBase
     }
     
     [HttpPost(Name = "Register User")]
-    public async Task<ActionResult> Register(Account account)
+    public async Task<ActionResult> Register(AccountToRegisterDTO account)
     {
         await _accountService.Register(account);
         return Ok();
