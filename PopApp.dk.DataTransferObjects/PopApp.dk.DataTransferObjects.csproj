@@ -7,8 +7,4 @@
         <RootNamespace>POPAPP.DK.DTO</RootNamespace>
     </PropertyGroup>
 
-    <ItemGroup>
-      <Folder Include="Account" />
-    </ItemGroup>
-
 </Project>
