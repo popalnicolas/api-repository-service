@@ -1,8 +1,8 @@
 using AutoMapper;
-using POPAPP.DK.DATA.Models;
-using POPAPP.DK.DTO.Account;
+using PopApp.dk.DataAccess.Models;
+using PopApp.dk.DataTransferObject.Account;
 
-namespace POPAPP.DK.BUSINESS.Mapper;
+namespace PopApp.dk.Business.Mapper;
 
 public class Mapper: Profile
 {

@@ -4,7 +4,7 @@
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <RootNamespace>POPAPP.DK.BUSINESS</RootNamespace>
+        <RootNamespace>PopApp.dk.Business</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -15,7 +15,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\PopApp.dk.DataAccess\PopApp.dk.DataAccess.csproj" />
-      <ProjectReference Include="..\PopApp.dk.DataTransferObjects\PopApp.dk.DataTransferObjects.csproj" />
+      <ProjectReference Include="..\PopApp.dk.DataTransferObject\PopApp.dk.DataTransferObject.csproj" />
     </ItemGroup>
 
 </Project>

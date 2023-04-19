@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
-using POPAPP.DK.DATA.DataContext;
-using POPAPP.DK.DATA.Models;
-using POPAPP.DK.DATA.Repositories.IRepositories;
+using PopApp.dk.DataAccess.DataContext;
+using PopApp.dk.DataAccess.Models;
+using PopApp.dk.DataAccess.Repositories.IRepositories;
 
-namespace POPAPP.DK.DATA.Repositories;
+namespace PopApp.dk.DataAccess.Repositories;
 
 public class AccountRepository : GenericRepository<Account>, IAccountRepository
 {

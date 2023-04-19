@@ -1,9 +1,9 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using POPAPP.DK.BUSINESS.Services;
-using POPAPP.DK.BUSINESS.Services.IServices;
+using PopApp.dk.Business.Services;
+using PopApp.dk.Business.Services.IServices;
 
-namespace POPAPP.DK.BUSINESS;
+namespace PopApp.dk.Business;
 
 public static class DependencyInjection
 {

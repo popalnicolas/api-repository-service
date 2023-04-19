@@ -1,4 +1,4 @@
-namespace POPAPP.DK.DTO.Account;
+namespace PopApp.dk.DataTransferObject.Account;
 
 public class AccountToAddDTO
 {

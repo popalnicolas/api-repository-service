@@ -1,10 +1,10 @@
 using AutoMapper;
-using POPAPP.DK.BUSINESS.Services.IServices;
-using POPAPP.DK.DATA.Models;
-using POPAPP.DK.DATA.Repositories.IRepositories;
-using POPAPP.DK.DTO.Account;
+using PopApp.dk.Business.Services.IServices;
+using PopApp.dk.DataAccess.Models;
+using PopApp.dk.DataAccess.Repositories.IRepositories;
+using PopApp.dk.DataTransferObject.Account;
 
-namespace POPAPP.DK.BUSINESS.Services;
+namespace PopApp.dk.Business.Services;
 
 public class AccountService: IAccountService
 {

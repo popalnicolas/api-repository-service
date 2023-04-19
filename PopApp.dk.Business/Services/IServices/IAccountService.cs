@@ -1,7 +1,7 @@
-using POPAPP.DK.DATA.Models;
-using POPAPP.DK.DTO.Account;
+using PopApp.dk.DataAccess.Models;
+using PopApp.dk.DataTransferObject.Account;
 
-namespace POPAPP.DK.BUSINESS.Services.IServices;
+namespace PopApp.dk.Business.Services.IServices;
 
 public interface IAccountService
 {

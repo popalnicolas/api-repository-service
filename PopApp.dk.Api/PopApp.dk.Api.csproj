@@ -5,7 +5,7 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
-        <RootNamespace>POPAPP.DK.API</RootNamespace>
+        <RootNamespace>PopApp.dk.Api</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>

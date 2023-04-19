@@ -1,5 +1,5 @@
-using POPAPP.DK.BUSINESS;
-using POPAPP.DK.DATA;
+using PopApp.dk.Business;
+using PopApp.dk.DataAccess;
 
 var builder = WebApplication.CreateBuilder(args);
 

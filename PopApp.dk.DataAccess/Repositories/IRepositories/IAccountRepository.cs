@@ -1,6 +1,6 @@
-using POPAPP.DK.DATA.Models;
+using PopApp.dk.DataAccess.Models;
 
-namespace POPAPP.DK.DATA.Repositories.IRepositories;
+namespace PopApp.dk.DataAccess.Repositories.IRepositories;
 
 public interface IAccountRepository: IGenericRepository<Account>
 {

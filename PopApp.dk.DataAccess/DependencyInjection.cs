@@ -1,11 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using POPAPP.DK.DATA.DataContext;
-using POPAPP.DK.DATA.Repositories;
-using POPAPP.DK.DATA.Repositories.IRepositories;
+using PopApp.dk.DataAccess.DataContext;
+using PopApp.dk.DataAccess.Repositories;
+using PopApp.dk.DataAccess.Repositories.IRepositories;
 
-namespace POPAPP.DK.DATA;
+namespace PopApp.dk.DataAccess;
 
 public static class DependencyInjection
 {

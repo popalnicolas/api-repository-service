@@ -1,9 +1,9 @@
 using Microsoft.AspNetCore.Mvc;
-using POPAPP.DK.BUSINESS.Services.IServices;
-using POPAPP.DK.DATA.Models;
-using POPAPP.DK.DTO.Account;
+using PopApp.dk.Business.Services.IServices;
+using PopApp.dk.DataAccess.Models;
+using PopApp.dk.DataTransferObject.Account;
 
-namespace POPAPP.DK.API.Controllers;
+namespace PopApp.dk.Api.Controllers;
 
 [Route("api/[controller]/[action]")]
 public class AuthenticationController: ControllerBase

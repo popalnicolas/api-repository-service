@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
 
-namespace POPAPP.DK.DATA.Repositories.IRepositories;
+namespace PopApp.dk.DataAccess.Repositories.IRepositories;
 
 public interface IGenericRepository<T> where T : class, new()
 {

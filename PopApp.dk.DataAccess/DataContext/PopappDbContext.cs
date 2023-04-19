@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
-using POPAPP.DK.DATA.Models;
+using PopApp.dk.DataAccess.Models;
 
-namespace POPAPP.DK.DATA.DataContext;
+namespace PopApp.dk.DataAccess.DataContext;
 
 public class PopappDbContext: DbContext
 {

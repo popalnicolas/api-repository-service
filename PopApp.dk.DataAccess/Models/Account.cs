@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace POPAPP.DK.DATA.Models;
+namespace PopApp.dk.DataAccess.Models;
 
 [Table(name:"accounts")]
 public class Account

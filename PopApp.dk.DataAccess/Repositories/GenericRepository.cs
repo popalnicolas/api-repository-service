@@ -1,9 +1,9 @@
 using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
-using POPAPP.DK.DATA.DataContext;
-using POPAPP.DK.DATA.Repositories.IRepositories;
+using PopApp.dk.DataAccess.DataContext;
+using PopApp.dk.DataAccess.Repositories.IRepositories;
 
-namespace POPAPP.DK.DATA.Repositories;
+namespace PopApp.dk.DataAccess.Repositories;
 
 public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class, new()
 {
